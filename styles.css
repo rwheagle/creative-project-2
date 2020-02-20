@@ -1,0 +1,70 @@
+*{
+  font-size: 20px;
+}
+
+.main{
+  align: center;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: .75em !important;
+  background-color: #AABBDD !important;
+}
+
+#weatherResults{
+  align: center;
+  text-align: center;
+  margin: 2%;
+}
+#forecastResults{
+  align: center;
+  text-align: center;
+  margin: 2%;
+  margin-bottom: 5%;
+}
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1em;
+}
+
+th{
+  text-align: center;
+  font-size: 1.25em;
+}
+.gap{
+  padding: .5%;
+}
+table{
+  font-size: .75em;
+  margin: 0% 10% 0% 10%;
+  padding: 2%;
+  text-align: center;
+  width: 80%;
+}
+
+.footer{
+  background-color: #AABBDD;
+  position: fixed;
+  height: 5%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+.footer a{
+  text-decoration: none;
+  font-size: 1em;
+  align-content: center;
+}
